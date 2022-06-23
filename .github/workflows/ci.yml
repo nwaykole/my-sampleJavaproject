@@ -32,8 +32,8 @@ jobs:
       uses: nwaykole/push-to-gcr-github-action@v4.1
       with:
           gcloud_service_key: ${{ secrets.GCLOUD_SERVICE_KEY }} # can be base64 encoded or plain text
-          registry: gcr.io
-          project_id: my-awesome-project
+          registry: us-central1-docker.pkg.dev
+          project_id: githubactionprac
           image_name: samplejava
           image_tag: latest
          
